@@ -2,6 +2,65 @@
 
 A lightweight Python CLI toolkit that bootstraps an AI-driven development SOP into any new project directory.
 
+## 中文說明
+
+`ai-dev-sop-toolkit` 是一個輕量的 Python CLI 工具，目的是在任何新專案資料夾中，快速建立一套 AI 協作開發 SOP。
+
+安裝完成後，只要在目標專案資料夾執行：
+
+```bash
+ai-sop init
+```
+
+工具就會自動建立以下檔案：
+
+- `.cursorrules`
+- `CLAUDE.md`
+- `TASK.md`
+- `PROJECT_RULES.md`
+
+這些檔案可用來統一 AI 協作時的需求釐清、任務拆解、驗證流程與開發規範。
+
+### 適合的使用情境
+
+- 想替每個新專案快速注入固定的 AI 開發流程
+- 想讓 Cursor、Claude Code 或其他 AI 助手遵守一致的 SOP
+- 想把團隊開發規範模板化、可重複使用
+
+### 安裝方式
+
+在專案根目錄執行：
+
+```bash
+pip install -e .
+```
+
+若你的環境使用 Windows 啟動器，也可以使用：
+
+```bash
+py -m pip install -e .
+```
+
+### 使用方式
+
+進入任一新專案資料夾後執行：
+
+```bash
+ai-sop init
+```
+
+如果目標檔案已存在，CLI 會詢問你是否要覆蓋。
+
+### 建議操作流程
+
+1. 在本機安裝這個工具。
+2. 到新的空白專案資料夾執行 `ai-sop init`。
+3. 打開 Cursor、Claude Code 或其他 AI 工具。
+4. 請 AI 先閱讀 `PROJECT_RULES.md`、`TASK.md` 與其他規範檔。
+5. 依照 SOP 進行需求釐清、開發與驗證。
+
+## English Overview
+
 After installation, run `ai-sop init` inside a target project folder to generate:
 
 - `.cursorrules`
