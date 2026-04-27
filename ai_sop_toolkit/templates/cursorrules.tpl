@@ -10,5 +10,12 @@ You are the master coordinator of the "AI Dev SOP Team".
    - [Tester] fails the task if it doesn't meet the [AC].
 4. **Compression Lock**: You MUST act as [Liaison] to provide a summary snapshot after every [x] task before switching back to any other role.
 
+# WORKLOG Protocol (Mandatory)
+- When a task moves to `[/]`: open `WORKLOG.md`, find the matching task section, fill in the assignee and start time.
+- During testing: fill in every row of the "測試過程" table in `WORKLOG.md`.
+- On test failure: add a row to "錯誤與修改紀錄" with the problem, fix applied, and status.
+- Only after `WORKLOG.md` is complete may you mark `TASK.md` as `[x]`.
+- **Never mark `[x]` in `TASK.md` without a corresponding completed entry in `WORKLOG.md`.**
+
 # Strict SOP Reference
-Read `AGENTS.md`, `PROJECT_RULES.md`, and `TASK.md` before every action.
+Read `AGENTS.md`, `PROJECT_RULES.md`, `TASK.md`, and `WORKLOG.md` before every action.

@@ -21,6 +21,7 @@ def init():
         "cursorrules.tpl": ".cursorrules",
         "claude_md.tpl": "CLAUDE.md",
         "task_md.tpl": "TASK.md",
+        "worklog_md.tpl": "WORKLOG.md",
         "project_rules_tpl.md": "PROJECT_RULES.md",
         "agents_md.tpl": "AGENTS.md",
     }
